@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+i{
+    margin-left: 10px;
+    border-color: rgb(43, 89, 32);
+    border-style:solid;
+    width: auto;    
+    font-size: 45px;
+}
