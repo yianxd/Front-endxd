@@ -83,4 +83,31 @@ ul li a:hover{
     opacity: 1.5;
 }
 
+.entrada1{
+    width: 500px;
+    display: flex;
+    
+}
 
+.xd{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+
+.entrada1 :invalid{
+    border: 1px solid red;
+}
+
+.entrada1 :invalid + .xd{
+    color: red;
+}
+
+.entrada1 :valid{
+    border: 1px solid green;
+}
+
+.entrada1 :valid + .xd {
+    color: green;
+}
