@@ -7,6 +7,10 @@
     font-family: 'kgredhads';
     src: url(../fuentes/kgredhads.ttf)
 }
+@font-face {
+    font-family: 'caviardreamsI';
+    src: url(../fuentes/CaviarDreams_Italic.ttf);
+}
 
 /**----ENCABEZADO------**/
 header{
@@ -90,5 +94,7 @@ footer{
 
 .copy_icono span{
     font-size: 1rem;
+    font-family: caviardreamsI;
 }
+
 
