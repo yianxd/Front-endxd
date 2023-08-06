@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: bisque;
+}
 @font-face {
     font-family: 'kgredhads';
     src: url(../fuentes/kgredhads.ttf)
@@ -51,8 +54,12 @@ ul{
 }
 ul li{
     display: inline-block;
-}
 
+}
+ul li.op{
+    background-color: #415c46;
+
+}
 ul a{
     text-decoration: none;
     display: flex;
@@ -60,17 +67,22 @@ ul a{
     font-size: 1.2rem;
     justify-content: space-around;
     padding: 15px;
-    color: white;
+    color: bisque;
+    opacity: 0.5;
     font-family: kgredhads;
+
+
 }
 
 ul li a.activo{
-    background-color: #415c46;
+    opacity: 1;
     border-radius: 5%;
 }
 ul li a:hover{
+    opacity: 1;
     color: #517257;
     background-color: white;
+    border: 1px solid bisque;
 }
 
 /*-------------PIE DE PAGINA------------------*/
@@ -83,7 +95,7 @@ footer{
 }
 .pie{
     width: 90%;
-    height: 70%;
+    height: 65%;
     border-top: 1px solid white;
     display: flex;
     margin: auto;
