@@ -4,7 +4,9 @@
     margin: 0;
 }
 body{
-    background-color: bisque;
+    background-image: 
+    url(../img/fondo.jpg)
+    ;    
 }
 @font-face {
     font-family: 'kgredhads';
@@ -49,18 +51,18 @@ header{
     position: relative;
     justify-content:center;
 }
-ul{
+.menu ul{
     margin-left: 23%;
 }
-ul li{
+.menu ul li{
     display: inline-block;
 
 }
-ul li.op{
+.menu ul li.op{
     background-color: #415c46;
 
 }
-ul a{
+.menu ul a{
     text-decoration: none;
     display: flex;
     outline: none;
@@ -74,11 +76,11 @@ ul a{
 
 }
 
-ul li a.activo{
+.menu ul li a.activo{
     opacity: 1;
     border-radius: 5%;
 }
-ul li a:hover{
+.menu ul li a:hover{
     opacity: 1;
     color: #517257;
     background-color: white;
@@ -101,6 +103,7 @@ footer{
     margin: auto;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .copy_icono img{
@@ -112,19 +115,12 @@ footer{
     font-size: 1rem;
     font-family: caviardreamsI;
 }
-
-ul li a span {
+.pie ul li{
+    display: inline-block;
+}
+.pie ul li a span {
     color: black;
 }
-
-.pie ul li a:hover{
-    background-color:  #517257;
-    width: 100px;
-    height: 50px;
-    font-size: 10px;
-    box-shadow: 2px 2px 2px rgb(78, 78, 78);
-}
-
 .pie ul li a span{
     color: bisque;
-}
+} 
