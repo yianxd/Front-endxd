@@ -6,7 +6,8 @@
 body{
     background-image: 
     url(../img/fondo.jpg)
-    ;    
+    ;
+    background-attachment:fixed;
 }
 @font-face {
     font-family: 'kgredhads';
@@ -90,6 +91,7 @@ header{
 /*-------------PIE DE PAGINA------------------*/
 
 footer{
+    margin-top: 5%;
     background-color: #517257;
     height: 80px;
     display: flex;
