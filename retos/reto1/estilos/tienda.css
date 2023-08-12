@@ -1,0 +1,9 @@
+article{
+    display: flex;
+    justify-content: center;
+
+}
+
+.filtro{
+    display: none;
+}
