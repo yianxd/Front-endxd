@@ -4,6 +4,45 @@ article{
 
 }
 
+h1.text{
+    font-size: 3rem;
+    background-color: #19381f;
+    color: bisque;
+    width: 500px;
+    margin: 5%;
+
+}
+li{
+    list-style: none;
+}
+
 .filtro{
     display: none;
+}
+
+.card-body a{
+    background: #23572e;
+    border: none;
+}
+.card img{
+    flex-wrap: wrap;
+    width: 280px;
+    height: 260px;
+}
+
+.card-body a:hover{
+    background: #19381f;
+    border: none;
+}
+
+ul.col{
+    display: flex;
+    flex-direction: row ;
+}
+
+
+ul li.articulo{
+    margin: 5px;
+
+
 }

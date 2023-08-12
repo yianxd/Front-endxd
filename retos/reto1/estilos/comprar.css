@@ -34,12 +34,23 @@ form .entrada{
     
 }
 
-.boton input{
+.col-12 button{
+    opacity: 0,8;
     width: 100px;
     background-color: #23572e;
-    height: 50px;
+    height: 35px;
+    border: none;
 }
+.col-12 button a{
+    
+    text-decoration: none;
+    color: bisque;
 
+}
+.col-12 button:hover{
+    opacity: 1;
+    background-color: #0d2913;
+}
 /*validacion*/
 .xd{
     display: flex;
