@@ -1,0 +1,103 @@
+@font-face {
+    font-family: LEMONMILK-MEDIUM;
+    src: url(../fuentes/LEMONMILK-Medium.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: floralwhite   ;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+}
+.logo{
+    position: absolute;
+    margin-left: 18%;
+    width: 180px;
+    padding: 5px;
+
+
+}
+
+
+.logo:hover{
+    width: 200px;
+}
+
+.titulo{
+    position: relative;
+    margin-left: 25%;
+    text-align: center;
+    padding: 5%;
+}
+
+
+/*navegacion*/
+
+ul li{
+    list-style: none;
+}
+nav{
+    background-color: cadetblue;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    
+}
+.navegacion{
+    background-color: cadetblue;
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul{
+    
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.menu li a{
+    color:aliceblue;
+    text-decoration: none;
+    display: block;
+
+}
+.menu li a:hover{
+    color:rgb(67, 82, 79);
+}
+
+.menu li a:hover+.sub-menu{
+    display: block;
+}
+/*sub-menu*/
+.sub-menu{
+    position: absolute;
+    width: 190px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1,5s;
+    background-color:cadetblue
+
+}
+
+.menu li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+
+
+}
