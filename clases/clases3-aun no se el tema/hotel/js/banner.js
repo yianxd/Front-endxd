@@ -10,7 +10,7 @@ $('#caja .s-caja:last').insertBefore('#caja .s-caja:frist');
 contenedor.css('margin-left','-'+100+'%');
 
 
-function dere(){
+function derecha(){
     contenedor.animate({
         marginLeft:'-'+200+'%'
     },100,function(){
