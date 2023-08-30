@@ -35,3 +35,9 @@ function automatico(){
         derecha();
     },5000);
 }
+
+siguiente.on('click',function(){
+    derecha();
+    clearInterval();
+    automatico();
+})
