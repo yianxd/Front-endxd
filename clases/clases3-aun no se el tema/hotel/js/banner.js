@@ -14,17 +14,16 @@ function derecha(){
     contenedor.animate({
         marginLeft:'-'+200+'%'
     },100,function(){
-        $('#caja .s-caja:frist').insertAfter('#caja  .s-caja:last')
+        $('#caja .s-caja:frist').insertAfter('#caja  .s-caja:last');
         contenedor.css('margin-left','-'+100+'%');
     }
-    )
-};
+)};
 
 function izquierda(){
     contenedor.animate({
         marginLeft:0
     },100,function(){
-        $('#caja .s-caja:frist').insertBefore('#caja  .s-caja:last')
+        $('#caja .s-caja:frist').insertBefore('#caja  .s-caja:last');
         contenedor.css('margin-left','-'+100+'%');
     }
     )
