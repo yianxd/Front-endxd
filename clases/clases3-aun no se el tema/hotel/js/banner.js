@@ -1,8 +1,8 @@
 var contenedor=$('#caja');
 
-var atras=$('#btn-atras');
+var anterior=$('#btn-atras');
 
-var atras=$('#btn-siguiente');
+var siguiente=$('#btn-siguiente');
 
 $('#caja .s-caja:last').insertBefore('#caja .s-caja:frist');
 
@@ -38,6 +38,14 @@ function automatico(){
 
 siguiente.on('click',function(){
     derecha();
-    clearInterval();
+    clearInterval(interval);
     automatico();
 })
+
+anterior.on('click',function(){
+    derecha();
+    clearInterval(interval);
+    automatico();
+})
+
+automatico()
